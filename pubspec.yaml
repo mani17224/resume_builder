@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.3 <4.0.0'
+  sdk: ">=2.19.0 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,7 +30,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -47,7 +46,6 @@ dependencies:
     git:
       url: https://github.com/iamashish1/dart_pdf.git 
       path: printing
-      
 
   firebase_storage: ^11.6.0
   intl: ^0.19.0
@@ -99,7 +97,6 @@ flutter:
     - assets/icons/
     - .env
 
-
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
@@ -125,6 +122,3 @@ flutter:
        - asset: assets/font/Montserrat-Bold.ttf
        - asset: assets/font/Montserrat-Light.ttf
        - asset: assets/font/Montserrat-Italic.ttf
-
-
-
